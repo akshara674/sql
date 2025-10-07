@@ -1,3 +1,4 @@
+
 CREATE TABLE authors ( author_id SERIAL PRIMARY KEY,
  author_name VARCHAR(100) NOT NULL, 
  email VARCHAR(100) UNIQUE NOT NULL );
